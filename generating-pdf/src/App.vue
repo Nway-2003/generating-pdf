@@ -1,15 +1,15 @@
 <template>
   <v-app>
-    <v-container>
-      <PrintButton />
-    </v-container>
+    <router-view></router-view>
   </v-app>
 </template>
 
-<script setup>
-import PrintButton from './components/Pdf.vue'
+<script>
+export default {
+  name: 'App',
+};
 </script>
 
 <style scoped>
-/* Add your styles here */
+/* Add any global styling if needed */
 </style>
